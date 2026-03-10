@@ -13,22 +13,22 @@ Je m'en sortais pas trop mal, je trouvais. L'analogie du cerveau qui apprend, le
 
 Et là elle m'interrompt :
 
-> *"Mais attends. Si elle est intelligente, pourquoi elle fait des fautes ?"*
+> *"Mais attends. Si elle est intelligente, pourquoi elle se trompe ?"*
 
 Silence.
 
-Pas le silence du mec qui cherche ses mots. Le silence du mec qui réalise qu'il vient de se faire démolir par une enfant de CP.
+Pas le silence du mec qui cherche ses mots. Le silence du mec qui réalise qu'il vient de se faire démolir par une enfant de primaire.
 
 
 ## Le problème, c'est le mot "intelligente"
 
-Parce que c'est moi qui venais de l'utiliser. Deux minutes avant. "L'intelligence artificielle, tu vois, c'est..."
+Parce que deux minutes plus tôt, c'est moi qui venais de l'utiliser. "L'intelligence artificielle, tu vois, c'est..."
 
-Alice n'avait fait que reprendre mon vocabulaire. Et en le retournant, elle avait mis le doigt sur quelque chose que les adultes, y compris ceux qui bossent dans le domaine, ont tendance à esquiver.
+Alice n'avait fait que reprendre mon vocabulaire. Et en le retournant, elle avait mis le doigt sur quelque chose que les adultes, y compris ceux qui bossent dans le domaine, ont tendance à mettre de côté.
 
 **Une IA n'est pas intelligente. Elle est entraînée.**
 
-Ce n'est pas la même chose. Un outil entraîné sur des milliards de textes va reproduire des patterns, compléter des phrases, générer des réponses plausibles. Il va même souvent avoir l'air très convaincant. Mais il ne *comprend* pas ce qu'il produit. Il prédit ce qui a de bonnes chances d'être juste, et parfois il se plante, parce que "plausible" et "exact", ce n'est pas pareil.
+Ce n'est pas la même chose. Un outil entraîné sur des milliards de textes va reproduire des schémas, compléter des phrases, générer des réponses plausibles. Il va même souvent avoir l'air très convaincant. Mais il ne *comprend* rien à ce qu'il produit. Il prédit ce qui a de bonnes chances d'être juste, et parfois il se plante, parce que "plausible", ce n'est pas "exact".
 
 Une faute, pour une IA, ce n'est pas un moment d'inattention. C'est une prédiction ratée.
 
@@ -54,10 +54,10 @@ Si vous êtes parent, enseignant, formateur, ou simplement quelqu'un qui utilise
 
 ## On a mal nommé le truc dès le départ
 
-"Intelligence artificielle"le nom lui-même porte le problème. On a choisi le mot le plus chargé possible pour désigner quelque chose qui n'a pas de conscience, pas d'intention, pas de compréhension réelle.
+"Intelligence artificielle", le nom lui-même porte le problème. On a choisi le mot le plus chargé possible pour désigner quelque chose qui n'a pas de conscience, pas d'intention, pas de réelle compréhension.
 
-Et maintenant on s'étonne que les gens lui fassent trop confiance, ou au contraire en aient peur comme d'un truc vivant qui va "prendre le contrôle".
+Et maintenant on s'étonne que les gens lui fassent confiance au point de s'en servir de psy. Ou, au contraire, en aient peur comme d'un truc vivant qui va "prendre le contrôle".
 
-Alice a 8 ans et elle a senti l'incohérence instantanément, juste en reprenant mon propre vocabulaire contre moi.
+Alice a 8 ans et elle a senti que ça n'allait pas instantanément, juste en reprenant mon propre vocabulaire contre moi.
 
 La prochaine fois, je commencerai peut-être par lui expliquer que le nom est un peu nul.
