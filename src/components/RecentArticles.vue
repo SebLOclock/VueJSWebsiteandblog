@@ -1,26 +1,21 @@
 <template>
   <section class="recent-articles">
     <h2 class="section__title">Articles récents</h2>
-    <div v-if="loading" class="recent-articles__loading">
-      Chargement des articles récents...
-    </div>
-    <div v-else-if="error" class="recent-articles__error">
-      {{ error }}
-    </div>
-    <div v-else-if="filteredArticles.length === 0" class="recent-articles__empty">
+    <div v-if="filteredArticles.length === 0" class="recent-articles__empty">
       Aucun autre article récent disponible
     </div>
     <div v-else class="blog-container">
-      <article v-for="article in filteredArticles" :key="article.id" class="blog-post">
-        <img 
-          :src="article._embedded['wp:featuredmedia'][0].source_url" 
-          :alt="article.title.rendered"
+      <article v-for="article in filteredArticles" :key="article.slug" class="blog-post">
+        <img
+          v-if="article.image"
+          :src="article.image"
+          :alt="article.title"
           class="blog-post__image"
         >
-        <h3 class="blog-post__title" v-html="cleanText(article.title.rendered)"></h3>
-        <p class="blog-post__description" v-html="article.excerpt.rendered"></p>
+        <h3 class="blog-post__title">{{ article.title }}</h3>
+        <p class="blog-post__description">{{ article.excerpt }}</p>
         <p class="blog-post__date">{{ formatDate(article.date) }}</p>
-        <router-link 
+        <router-link
           :to="{ name: 'article', params: { slug: article.slug }}"
           class="blog-post__link"
         >
@@ -32,58 +27,20 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed, watch } from 'vue'
+import { computed } from 'vue'
 import { useRoute } from 'vue-router'
-import { fetchPosts } from '@/services/api'
-import DOMPurify from 'dompurify'
+import { getArticles } from '@/services/articles'
 
 const route = useRoute()
-const articles = ref([])
-const loading = ref(true)
-const error = ref(null)
-
-const cleanText = (text) => {
-  return DOMPurify.sanitize(text)
-    .replace(/&rsquo;/g, "'")
-    .replace(/&quot;/g, '"')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-}
+const articles = getArticles(4)
 
 const formatDate = (date) => {
   return new Date(date).toLocaleDateString()
 }
 
-// Filtrer les articles pour exclure l'article actuel
 const filteredArticles = computed(() => {
-  return articles.value.filter(article => article.slug !== route.params.slug)
+  return articles.filter(a => a.slug !== route.params.slug)
 })
-
-const loadArticles = async () => {
-  try {
-    loading.value = true
-    error.value = null
-    articles.value = await fetchPosts(4) // Récupérer 4 articles pour avoir 3 après filtrage
-  } catch (err) {
-    error.value = err.message
-    console.error('Erreur lors du chargement des articles récents :', err)
-  } finally {
-    loading.value = false
-  }
-}
-
-onMounted(() => {
-  loadArticles()
-})
-
-// Recharger les articles quand la route change
-watch(
-  () => route.params.slug,
-  () => {
-    loadArticles()
-  }
-)
 </script>
 
 <style scoped>
@@ -93,19 +50,12 @@ watch(
   border-top: 1px solid #eee;
 }
 
-.recent-articles__loading,
-.recent-articles__error,
 .recent-articles__empty {
   text-align: center;
   padding: 2rem;
   color: #666;
 }
 
-.recent-articles__error {
-  color: #dc3545;
-}
-
-/* Réutilisation des styles du composant Blog */
 .blog-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -171,4 +121,4 @@ watch(
     grid-template-columns: 1fr;
   }
 }
-</style> 
+</style>
