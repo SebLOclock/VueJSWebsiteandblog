@@ -15,32 +15,38 @@
 <style scoped>
 .not-found {
   text-align: center;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
 }
 
 .not-found h1 {
+  font-family: var(--heading-font);
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: var(--primary-color);
 }
 
 .not-found p {
-  font-size: 1.2rem;
-  color: #666;
-  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: var(--light-text);
+  margin-bottom: 2.5rem;
 }
 
 .btn {
   display: inline-block;
-  padding: 0.8rem 1.5rem;
-  background-color: #007bff;
+  padding: 14px 32px;
+  background-color: var(--primary-color);
   color: white;
   text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: var(--transition);
+  letter-spacing: 0.02em;
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: var(--secondary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(26, 35, 50, 0.2);
 }
 </style> 

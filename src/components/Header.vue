@@ -8,7 +8,7 @@
           </div>
           <div class="header__name">
             <h1 class="header__title">Sébastien LEMOINE</h1>
-            <p class="header__subtitle">Responsable Pédagogique | Leadership & Stratégie Éducative</p>
+            <p class="header__subtitle">Pédagogie · Tech · Numérique responsable</p>
           </div>
         </div>
       </div>
@@ -41,11 +41,10 @@ const route = useRoute()
 const router = useRouter()
 
 const navLinks = ref([
-  { text: 'À propos', path: '/#about', isAncor: true },
-  { text: 'Compétences', path: '/#competences', isAncor: true },
-  { text: 'Articles récents', path: '/#blog', isAncor: true },
-  { text: 'Contact', path: '/#contact', isAncor: true },
-  { text: '|', path: '#', isAncor: false },
+  { text: 'Qui suis-je ?', path: '/#about', isAncor: true },
+  { text: 'Ce que j\'apporte', path: '/#competences', isAncor: true },
+  { text: 'Réflexions', path: '/#blog', isAncor: true },
+  { text: 'Échangeons', path: '/#contact', isAncor: true },
   { text: 'Tous les articles', path: '/blog', isAncor: false }
 ])
 

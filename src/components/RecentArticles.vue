@@ -45,34 +45,37 @@ const filteredArticles = computed(() => {
 
 <style scoped>
 .recent-articles {
-  margin-top: 4rem;
+  margin-top: 5rem;
   padding-top: 4rem;
-  border-top: 1px solid #eee;
+  border-top: 1px solid rgba(26, 35, 50, 0.08);
 }
 
 .recent-articles__empty {
   text-align: center;
   padding: 2rem;
-  color: #666;
+  color: var(--light-text);
 }
 
 .blog-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  padding: 0 1rem;
 }
 
 .blog-post {
-  background: #fff;
-  border-radius: 8px;
+  background: var(--card-background);
+  border-radius: var(--border-radius);
   overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  border: 1px solid rgba(26, 35, 50, 0.06);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
 }
 
 .blog-post:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(26, 35, 50, 0.1);
+  border-color: rgba(201, 169, 110, 0.2);
 }
 
 .blog-post__image {
@@ -82,38 +85,53 @@ const filteredArticles = computed(() => {
 }
 
 .blog-post__title {
-  font-size: 1.2rem;
-  margin: 1rem;
-  color: #333;
+  font-family: var(--heading-font);
+  font-size: 1.15rem;
+  margin: 20px 24px 10px;
+  color: var(--primary-color);
   line-height: 1.4;
+  font-weight: 600;
 }
 
 .blog-post__description {
-  margin: 0 1rem;
-  color: #666;
+  margin: 0 24px;
+  color: var(--light-text);
   font-size: 0.9rem;
   line-height: 1.6;
+  flex-grow: 1;
 }
 
 .blog-post__date {
-  margin: 1rem;
-  color: #666;
-  font-size: 0.9rem;
+  margin: 16px 24px 8px;
+  color: var(--light-text);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .blog-post__link {
-  display: inline-block;
-  margin: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: #007bff;
-  color: white;
+  display: inline-flex;
+  align-items: center;
+  margin: 0 24px 24px;
+  color: var(--accent-color);
   text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: var(--transition);
 }
 
 .blog-post__link:hover {
-  background-color: #0056b3;
+  color: var(--primary-color);
+}
+
+.blog-post__link::after {
+  content: '→';
+  margin-left: 6px;
+  transition: var(--transition);
+}
+
+.blog-post__link:hover::after {
+  transform: translateX(4px);
 }
 
 @media (max-width: 768px) {

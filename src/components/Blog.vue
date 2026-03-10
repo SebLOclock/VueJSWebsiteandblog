@@ -1,7 +1,7 @@
 <template>
   <IntersectionObserver>
     <section id="blog" class="section">
-      <h2 class="section__title">Articles</h2>
+      <h2 class="section__title">Dernières réflexions</h2>
       <div class="blog-container">
         <article v-for="post in posts" :key="post.slug" class="blog-post">
           <img

@@ -1,11 +1,12 @@
 <template>
   <IntersectionObserver>
     <section id="about" class="section">
-      <h2 class="section__title">À propos</h2>
+      <h2 class="section__title">Qui suis-je ?</h2>
       <div class="about-content">
-        <p>Manager passionné par l'innovation éducative, j'accompagne les talents vers l'excellence. Mon expérience en gestion de projets, pédagogie et dans le numérique me permettent d'inspirer et structurer des formations adaptées aux besoins des entreprises et des apprenants.</p>
-        <p>Ancien développeur et consultant SI, j'ai une compréhension approfondie des enjeux techniques et managériaux qui me permettent d'apporter une valeur ajoutée significative dans la conception de parcours de formation et la gestion d'équipes.</p>
-        <p class="quote">Mon credo : <em>"Former aujourd'hui les talents de demain en conjuguant innovation technique et excellence pédagogique."</em></p>
+        <p>Passionné de pédagogie et de technologie depuis plus de 10 ans, j'ai d'abord été développeur et consultant SI avant de bifurquer vers ce qui me fait vibrer : transmettre, accompagner, décrypter.</p>
+        <p>Aujourd'hui, j'accompagne des équipes et des apprenants au quotidien. Mais pas que. Je m'intéresse aussi à ce que le numérique change dans nos vies, en bien comme en moins bien. Sécurité en ligne, intelligence artificielle, éducation au numérique : autant de sujets que j'essaie de rendre accessibles, que l'on soit parent, prof ou simplement curieux.</p>
+        <p>Ce qui me motive ? Contribuer à un monde numérique plus sûr, plus humain, plus conscient.</p>
+        <p class="quote"><em>"Décrypter la tech, éduquer avec passion, protéger avec conviction."</em></p>
       </div>
     </section>
   </IntersectionObserver>

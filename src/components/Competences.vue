@@ -1,7 +1,7 @@
 <template>
   <IntersectionObserver>
     <section id="competences" class="section">
-      <h2 class="section__title">Compétences Clés</h2>
+      <h2 class="section__title">Ce que j'apporte</h2>
       <div class="competences-container">
         <div v-for="(group, index) in competenceGroups" :key="index" class="competences-group">
           <h3>{{ group.title }}</h3>
@@ -23,45 +23,45 @@ import IntersectionObserver from './IntersectionObserver.vue'
 
 const competenceIcons = {
   'Gestion d\'équipe': 'fa-users',
-  'Leadership situationnel': 'fa-star',
+  'Leadership & intelligence collective': 'fa-brain',
   'Gestion de projets': 'fa-tasks',
-  'Intelligence collective': 'fa-brain',
-  'Stratégie Éducative': 'fa-graduation-cap',
-  'Transformation Digitale': 'fa-digital-tachograph',
-  'Innovation pédagogique': 'fa-lightbulb',
-  'Veille technologique': 'fa-magnifying-glass-chart',
+  'Formation & montée en compétences': 'fa-graduation-cap',
+  'Sécurité numérique': 'fa-shield-halved',
+  'Éducation au numérique': 'fa-chalkboard-user',
+  'Intelligence artificielle': 'fa-robot',
+  'Sensibilisation parents & familles': 'fa-people-roof',
   'Architecture logicielle': 'fa-code',
   'Développement web': 'fa-code-branch',
-  'Méthodes agiles': 'fa-sync',
-  'Intelligence artificielle': 'fa-robot'
+  'Veille tech & innovation': 'fa-lightbulb',
+  'Vulgarisation & transmission': 'fa-comments'
 }
 
 const competenceGroups = ref([
   {
-    title: 'Management & Leadership',
+    title: 'Accompagner les équipes',
     items: [
       'Gestion d\'équipe',
-      'Leadership situationnel',
+      'Leadership & intelligence collective',
       'Gestion de projets',
-      'Intelligence collective'
+      'Formation & montée en compétences'
     ]
   },
   {
-    title: 'Stratégie & Innovation',
+    title: 'Protéger et éduquer',
     items: [
-      'Stratégie Éducative',
-      'Transformation Digitale',
-      'Innovation pédagogique',
-      'Veille technologique'
+      'Sécurité numérique',
+      'Éducation au numérique',
+      'Intelligence artificielle',
+      'Sensibilisation parents & familles'
     ]
   },
   {
-    title: 'Technique & Développement',
+    title: 'Construire et transmettre',
     items: [
       'Architecture logicielle',
       'Développement web',
-      'Méthodes agiles',
-      'Intelligence artificielle'
+      'Veille tech & innovation',
+      'Vulgarisation & transmission'
     ]
   }
 ])
