@@ -31,5 +31,28 @@ useHead({
   link: [
     { rel: 'canonical', href: 'https://sebastienlemoine.fr/' },
   ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Person',
+        name: 'Sébastien LEMOINE',
+        url: 'https://sebastienlemoine.fr',
+        jobTitle: 'Ingénieur pédagogique',
+        description: 'Spécialisé en IA, éducation numérique et sécurité en ligne. 10 ans à parler de tech de façon honnête et accessible.',
+        sameAs: [
+          'https://linkedin.com/in/sébastien-lemoine-679b3b52',
+          'https://bsky.app/profile/sebastienlemoine.bsky.social',
+        ],
+        knowsAbout: [
+          'Intelligence artificielle',
+          'Pédagogie numérique',
+          'Sécurité en ligne',
+          'Éducation numérique',
+        ],
+      }),
+    },
+  ],
 })
 </script>

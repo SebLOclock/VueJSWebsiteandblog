@@ -78,6 +78,34 @@ useHead({
   link: [
     { rel: 'canonical', href: pageUrl },
   ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: computed(() => article.value ? JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        headline: article.value.title,
+        description: article.value.excerpt,
+        image: article.value.image ? `${siteUrl}${article.value.image}` : undefined,
+        datePublished: article.value.date,
+        url: `${siteUrl}/article/${article.value.slug}`,
+        author: {
+          '@type': 'Person',
+          name: 'Sébastien LEMOINE',
+          url: 'https://sebastienlemoine.fr',
+        },
+        publisher: {
+          '@type': 'Person',
+          name: 'Sébastien LEMOINE',
+          url: 'https://sebastienlemoine.fr',
+        },
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': `${siteUrl}/article/${article.value.slug}`,
+        },
+      }) : '{}'),
+    },
+  ],
 })
 
 watch(
