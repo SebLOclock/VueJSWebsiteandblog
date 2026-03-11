@@ -30,8 +30,9 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue'
+import { ref, watch, computed } from 'vue'
 import { useRoute } from 'vue-router'
+import { useHead } from '@unhead/vue'
 import { getArticleBySlug } from '@/services/articles'
 import RecentArticles from './RecentArticles.vue'
 
@@ -41,6 +42,43 @@ const article = ref(getArticleBySlug(route.params.slug))
 const formatDate = (date) => {
   return new Date(date).toLocaleDateString()
 }
+
+const siteUrl = 'https://sebastienlemoine.fr'
+
+const pageTitle = computed(() =>
+  article.value ? `${article.value.title} — Sébastien LEMOINE` : 'Article non trouvé'
+)
+const pageDescription = computed(() =>
+  article.value?.excerpt || ''
+)
+const pageUrl = computed(() =>
+  `${siteUrl}/article/${article.value?.slug || ''}`
+)
+const pageImage = computed(() =>
+  article.value?.image ? `${siteUrl}${article.value.image}` : ''
+)
+
+useHead({
+  title: pageTitle,
+  meta: [
+    { name: 'description', content: pageDescription },
+    { property: 'og:title', content: pageTitle },
+    { property: 'og:description', content: pageDescription },
+    { property: 'og:type', content: 'article' },
+    { property: 'og:url', content: pageUrl },
+    { property: 'og:image', content: pageImage },
+    { property: 'og:locale', content: 'fr_FR' },
+    { property: 'og:site_name', content: 'Sébastien LEMOINE' },
+    { property: 'article:author', content: 'Sébastien LEMOINE' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: pageTitle },
+    { name: 'twitter:description', content: pageDescription },
+    { name: 'twitter:image', content: pageImage },
+  ],
+  link: [
+    { rel: 'canonical', href: pageUrl },
+  ],
+})
 
 watch(
   () => route.params.slug,
