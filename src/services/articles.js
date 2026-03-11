@@ -1,5 +1,6 @@
 import { marked } from 'marked'
 import fm from 'front-matter'
+import DOMPurify from 'dompurify'
 
 // Import all markdown files at build time
 const articleFiles = import.meta.glob('@/content/articles/*.md', {
@@ -12,7 +13,7 @@ function parseArticle(raw) {
   const { attributes, body } = fm(raw)
   return {
     ...attributes,
-    content: marked(body)
+    content: DOMPurify.sanitize(marked(body))
   }
 }
 
