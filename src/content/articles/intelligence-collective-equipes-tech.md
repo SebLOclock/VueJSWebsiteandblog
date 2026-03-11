@@ -4,7 +4,7 @@ slug: "intelligence-collective-equipes-tech"
 date: "2025-03-28"
 author: "Sebastien LEMOINE"
 excerpt: "Fini le mythe du dev solo dans son garage, aujourd'hui, c'est l'intelligence collective qui fait la loi. Mais comment en faire une vraie force ?"
-image: "/images/blog/intelligence-collective.png"
+image: "/images/blog/intelligence-collective.webp"
 ---
 
 Dans un monde où le numérique avance plus vite que la lumière, une bonne équipe tech, ce n'est pas juste une bande de devs ultra-cali-brés en code. Non, ce qui fait vraiment la diff', c'est leur capacité à réfléchir ensemble, à se compléter et à bidouiller des solutions qu'aucun ne pourrait pondre seul. Fini le mythe du dev solo dans son garage, aujourd'hui, c'est l'intelligence collective qui fait la loi.

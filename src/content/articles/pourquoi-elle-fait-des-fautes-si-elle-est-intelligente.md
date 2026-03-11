@@ -4,7 +4,7 @@ slug: "pourquoi-elle-fait-des-fautes-si-elle-est-intelligente"
 date: "2026-03-10"
 author: "Sebastien LEMOINE"
 excerpt: "J'expliquais l'IA à ma nièce de 8 ans. Sa question toute simple a mis le doigt sur ce que les adultes esquivent : une IA n'est pas intelligente, elle est entraînée."
-image: "/images/blog/intelligence-artificielle-fait-semblant.png"
+image: "/images/blog/intelligence-artificielle-fait-semblant.webp"
 ---
 
 J'étais en train d'expliquer l'IA à Alice, ma nièce de 8 ans.

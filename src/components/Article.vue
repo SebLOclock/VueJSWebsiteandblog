@@ -9,6 +9,7 @@
           :src="article.image"
           :alt="article.title"
           class="article__image"
+          loading="lazy"
         >
       </div>
 

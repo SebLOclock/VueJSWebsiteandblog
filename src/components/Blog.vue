@@ -9,6 +9,7 @@
             :src="post.image"
             :alt="post.title"
             class="blog-post__image"
+            loading="lazy"
           >
           <h3 class="blog-post__title">{{ post.title }}</h3>
           <p class="blog-post__description">{{ post.excerpt }}</p>

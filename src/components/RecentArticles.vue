@@ -11,6 +11,7 @@
           :src="article.image"
           :alt="article.title"
           class="blog-post__image"
+          loading="lazy"
         >
         <h3 class="blog-post__title">{{ article.title }}</h3>
         <p class="blog-post__description">{{ article.excerpt }}</p>
