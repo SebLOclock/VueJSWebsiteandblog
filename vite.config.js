@@ -13,6 +13,7 @@ export default defineConfig({
     port: 3000,
   },
   build: {
+    sourcemap: false,
     outDir: 'dist',
     assetsDir: 'assets',
     rollupOptions: {

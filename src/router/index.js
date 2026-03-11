@@ -17,7 +17,7 @@ const router = createRouter({
       component: BlogView
     },
     {
-      path: '/article/:slug',
+      path: '/article/:slug([a-z0-9-]+)',
       name: 'article',
       component: ArticleView,
       props: true
