@@ -70,3 +70,55 @@ C'est pas une raison de tout débrancher et d'aller élever des chèvres dans le
 La fuite de données, c'est le risque de 2026 comme l'était le cambriolage dans les années 80 : ça n'arrive pas qu'aux autres, et les bons réflexes s'apprennent.
 
 La différence, c'est qu'on n'apprend toujours pas ces réflexes à l'école. Et ça, c'est peut-être le vrai scandale dans l'histoire.
+
+---
+
+## Sources
+
+### Sources officielles
+
+- **DGFiP / economie.gouv.fr** — Communiqué officiel sur l'accès illégitime au fichier FICOBA (18/02/2026)
+  https://www.economie.gouv.fr/actualites/ficoba-tout-savoir-lacces-illegitime-au-fichier-national-des-comptes-bancaires
+
+- **DGFiP / impots.gouv.fr** — FAQ officielle FICOBA (27/02/2026)
+  https://www.impots.gouv.fr/sites/default/files/media/2_actu/home/2026/faq_ficoba.pdf
+
+- **Banque de France** — Communiqué sur la fuite FICOBA et bons réflexes anti-fraude
+  https://www.banque-france.fr/fr/actualites/fuite-de-donnees-personnelles-du-fichier-national-des-comptes-bancaires-ficoba-la-banque-de-france
+
+- **Fédération bancaire française (FBF)** — Communiqué sur les risques liés à la divulgation des données FICOBA
+  https://www.fbf.fr/fr/divulgation-des-donnees-ficoba-la-fbf-appelle-a-la-vigilance/
+
+---
+
+### Presse et médias
+
+- **Caducee.net** — "Cegedim : l'État acte l'ampleur de la fuite et précise le risque 'données sensibles' pour 164 000 personnes" (27/02/2026)
+  https://www.caducee.net/actualite-medicale/16822/cegedim-l-etat-acte-l-ampleur-de-la-fuite-et-precise-le-risque-donnees-sensibles-pour-164-000-personnes.html
+
+- **Boursorama / Moneyvox** — "Coordonnées bancaires divulguées : quelles conséquences après la fuite de données de Ficoba ?" (07/03/2026)
+  https://www.boursorama.com/actualite-economique/actualites/coordonnees-bancaires-divulguees-quelles-consequences-apres-la-fuite-de-donnees-de-ficoba-c873e687a7321870ae3ef1a8905cbe7e
+
+- **Franceinfo** — "Piratage des données Ficoba : 'C'est la première fois qu'on s'attaque à des fichiers fiscaux'" (février 2026)
+  https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/piratage-des-donnees-ficoba-c-est-la-premiere-fois-qu-on-s-attaque-a-des-fichiers-fiscaux-alerte-une-association-de-defense-des-usagers-des-banques_7816064.html
+
+- **France Bleu / Radio France** — "Des données bancaires consultées par 'un acteur malveillant', 1,2 million de comptes potentiellement concernés"
+  https://www.francebleu.fr/infos/faits-divers-justice/les-donnees-d-1-2-million-de-comptes-bancaires-consultees-de-maniere-illegitime-annonce-le-ministere-de-l-economie-6393951
+
+- **Clubic** — "L'URSSAF victime d'une gigantesque fuite de données : jusqu'à 12 millions de salariés concernés" (janvier 2026)
+  https://www.clubic.com/actualite-596026-l-urssaf-victime-d-une-gigantesque-fuite-de-donnees-jusqu-a-12-millions-de-salaries-concernes-alors-que-faire.html
+
+- **Franceinfo** — Fil actualités cyberattaques (UNSS, fédérations sportives, etc.)
+  https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/
+
+---
+
+### Contexte et chiffres généraux
+
+- **Jedha** — Liste des organisations victimes de cyberattaques en France en 2026
+  https://www.jedha.co/formation-cybersecurite/liste-des-organisations-victimes-dune-cyberattaque-en-2024
+
+- **Generateurdemotdepasse.fr** — "Cyberattaques en série France février-mars 2026 : fuites massives" (mars 2026)
+  https://generateurdemotdepasse.fr/blog/cyberattaques-france-fevrier-mars-2026-fuites-mots-de-passe
+
+---
