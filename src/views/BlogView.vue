@@ -42,17 +42,17 @@ const formatDate = (date) => {
 }
 
 useHead({
-  title: 'Blog — Sébastien LEMOINE | IA, Pédagogie & Numérique',
+  title: 'Blog | Sébastien LEMOINE | IA, Pédagogie & Numérique',
   meta: [
     { name: 'description', content: 'Articles de Sébastien LEMOINE sur l\'IA, la pédagogie numérique et la tech responsable. Décryptages accessibles pour parents, profs et curieux.' },
-    { property: 'og:title', content: 'Blog — Sébastien LEMOINE | IA, Pédagogie & Numérique' },
+    { property: 'og:title', content: 'Blog | Sébastien LEMOINE | IA, Pédagogie & Numérique' },
     { property: 'og:description', content: 'Articles sur l\'IA, la pédagogie numérique et la tech responsable.' },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://sebastienlemoine.fr/blog' },
     { property: 'og:locale', content: 'fr_FR' },
     { property: 'og:site_name', content: 'Sébastien LEMOINE' },
     { name: 'twitter:card', content: 'summary' },
-    { name: 'twitter:title', content: 'Blog — Sébastien LEMOINE | IA, Pédagogie & Numérique' },
+    { name: 'twitter:title', content: 'Blog | Sébastien LEMOINE | IA, Pédagogie & Numérique' },
     { name: 'twitter:description', content: 'Articles sur l\'IA, la pédagogie numérique et la tech responsable.' },
   ],
   link: [

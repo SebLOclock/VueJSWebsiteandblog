@@ -4,7 +4,7 @@
       <h2 class="section__title">Échangeons</h2>
       <div class="contact-container">
         <div class="contact-info">
-          <p class="contact-intro">Envie de discuter pédagogie, tech, numérique responsable, ou tout simplement d'échanger ? N'hésitez pas.</p>
+          <p class="contact-intro">Envie de causer pédagogie, tech, numérique, ou juste de dire bonjour ? Ma boîte mail est ouverte et je mords pas.</p>
           <p>
             <i class="fas fa-envelope"></i>
             <a href="mailto:lemoine.sebastien.cdf@gmail.com">lemoine.sebastien.cdf@gmail.com</a>

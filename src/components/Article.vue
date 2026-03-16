@@ -47,7 +47,7 @@ const formatDate = (date) => {
 const siteUrl = 'https://sebastienlemoine.fr'
 
 const pageTitle = computed(() =>
-  article.value ? `${article.value.title} — Sébastien LEMOINE` : 'Article non trouvé'
+  article.value ? `${article.value.title} | Sébastien LEMOINE` : 'Article non trouvé'
 )
 const pageDescription = computed(() =>
   article.value?.excerpt || ''

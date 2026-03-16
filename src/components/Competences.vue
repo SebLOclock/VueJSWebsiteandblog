@@ -5,12 +5,7 @@
       <div class="competences-container">
         <div v-for="(group, index) in competenceGroups" :key="index" class="competences-group">
           <h3>{{ group.title }}</h3>
-          <ul class="competence-list">
-            <li v-for="(competence, compIndex) in group.items" :key="compIndex" class="competence-item">
-              <i :class="['fas', competenceIcons[competence] || 'fa-check', 'competence-icon']"></i>
-              <span class="competence-text">{{ competence }}</span>
-            </li>
-          </ul>
+          <p class="competence-description">{{ group.description }}</p>
         </div>
       </div>
     </section>
@@ -21,48 +16,18 @@
 import { ref } from 'vue'
 import IntersectionObserver from './IntersectionObserver.vue'
 
-const competenceIcons = {
-  'Gestion d\'équipe': 'fa-users',
-  'Leadership & intelligence collective': 'fa-brain',
-  'Gestion de projets': 'fa-tasks',
-  'Formation & montée en compétences': 'fa-graduation-cap',
-  'Sécurité numérique': 'fa-shield-halved',
-  'Éducation au numérique': 'fa-chalkboard-user',
-  'Intelligence artificielle': 'fa-robot',
-  'Sensibilisation parents & familles': 'fa-people-roof',
-  'Architecture logicielle': 'fa-code',
-  'Développement web': 'fa-code-branch',
-  'Veille tech & innovation': 'fa-lightbulb',
-  'Vulgarisation & transmission': 'fa-comments'
-}
-
 const competenceGroups = ref([
   {
-    title: 'Accompagner les équipes',
-    items: [
-      'Gestion d\'équipe',
-      'Leadership & intelligence collective',
-      'Gestion de projets',
-      'Formation & montée en compétences'
-    ]
+    title: 'Donner les clés du numérique',
+    description: 'Le numérique, ça devrait pas être réservé à ceux qui ont fait 5 ans d\'études en info. J\'accompagne les équipes, les profs, les parents, tous ceux qui veulent comprendre sans qu\'on leur parle comme à des idiots. Mon boulot, c\'est de transformer le jargon en quelque chose d\'utile et de concret. Pas de slides à rallonge, pas de bullshit : juste les bonnes clés pour être autonome.'
   },
   {
-    title: 'Protéger et éduquer',
-    items: [
-      'Sécurité numérique',
-      'Éducation au numérique',
-      'Intelligence artificielle',
-      'Sensibilisation parents & familles'
-    ]
+    title: 'Protéger sans faire peur',
+    description: 'La cybersécurité, c\'est pas réservé aux mecs en sweat à capuche dans un sous-sol. Fuites de données, arnaques en ligne, IA qui dérape : j\'explique les vrais risques aux pros, aux parents, aux enseignants. Sans dramatiser, sans infantiliser. L\'idée c\'est que vous sachiez quoi faire, pas que vous ayez la trouille.'
   },
   {
     title: 'Construire et transmettre',
-    items: [
-      'Architecture logicielle',
-      'Développement web',
-      'Veille tech & innovation',
-      'Vulgarisation & transmission'
-    ]
+    description: 'Je code, j\'architecture, je fais de la veille. Mais ce qui me passionne le plus, c\'est de transmettre. Vulgariser la tech pour qu\'elle ne soit plus réservée à ceux qui parlent couramment le JSON. Si c\'est clair pour ma nièce de 8 ans, c\'est que c\'est bon.'
   }
 ])
-</script> 
+</script>
