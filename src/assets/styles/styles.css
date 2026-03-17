@@ -438,54 +438,11 @@
     border-radius: 2px;
   }
 
-  .competence-list {
-    list-style: none;
-    padding: 0;
+  .competence-description {
+    color: var(--text-color);
+    font-size: 0.98rem;
+    line-height: 1.7;
     margin: 0;
-  }
-
-  .competence-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 12px;
-    padding: 14px 20px;
-    background-color: var(--card-background);
-    border-radius: var(--border-radius);
-    border: 1px solid rgba(26, 35, 50, 0.06);
-    transition: var(--transition);
-  }
-
-  .competence-item:hover {
-    border-color: var(--accent-color);
-    box-shadow: 0 2px 12px rgba(201, 169, 110, 0.1);
-  }
-
-  .competence-icon {
-    font-size: 1.2rem;
-    color: var(--accent-color);
-    margin-right: 20px;
-    width: 28px;
-    text-align: center;
-  }
-
-  .competence-text {
-    color: var(--text-color);
-    font-size: 0.98rem;
-    font-weight: 500;
-  }
-
-  .competence-list li {
-    margin-bottom: 12px;
-    color: var(--text-color);
-    font-size: 0.98rem;
-  }
-
-  .competence-list li::before {
-    display: none;
-  }
-
-  .competence-list li:hover {
-    color: var(--text-color);
   }
 
   /* ========================================

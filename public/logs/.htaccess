@@ -1,0 +1,3 @@
+# Bloquer tout accès HTTP au dossier de logs
+# Les données ne sont consultables que par FTP
+Require all denied

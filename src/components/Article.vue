@@ -31,7 +31,7 @@
 </template>
 
 <script setup>
-import { ref, watch, computed } from 'vue'
+import { ref, watch, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useHead } from '@unhead/vue'
 import { getArticleBySlug } from '@/services/articles'
@@ -39,6 +39,17 @@ import RecentArticles from './RecentArticles.vue'
 
 const route = useRoute()
 const article = ref(getArticleBySlug(route.params.slug))
+
+function logVisit(slug) {
+  if (!slug) return
+  fetch('/api/log-visit.php', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ slug }),
+  }).catch(() => {})
+}
+
+onMounted(() => logVisit(route.params.slug))
 
 const formatDate = (date) => {
   return new Date(date).toLocaleDateString()
@@ -114,6 +125,7 @@ watch(
   (newSlug) => {
     if (newSlug) {
       article.value = getArticleBySlug(newSlug)
+      logVisit(newSlug)
     }
   }
 )
