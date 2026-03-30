@@ -23,9 +23,9 @@ from ftplib import FTP, all_errors
 
 
 def connect_and_download():
-    host = os.environ.get("FTP_HOST")
-    user = os.environ.get("FTP_USER")
-    password = os.environ.get("FTP_PASS")
+    host = os.environ.get("FTP_HOST", "ftp.cluster121.hosting.ovh.net")
+    user = os.environ.get("FTP_USER", "vnhhzud")
+    password = os.environ.get("FTP_PASS",  "Sikouillansky06100901") 
     remote_path = os.environ.get("FTP_PATH", "/www/logs/visits.csv")
 
     if not all([host, user, password]):
