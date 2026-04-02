@@ -37,6 +37,6 @@ jobs:
         lftp -e "
           open $FTP_SERVER
           user $FTP_USERNAME $FTP_PASSWORD
-          mirror --reverse --delete --verbose --exclude .git/ dist/ /www/
+          mirror --reverse --delete --verbose --exclude .git/ --exclude logs/ dist/ /www/
           bye
         "
