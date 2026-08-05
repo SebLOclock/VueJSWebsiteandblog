@@ -51,7 +51,7 @@ Ironique, pour quelqu'un qui pond cet exercice depuis tant d'années.
 
 Ce qui a tout changé, c'est pas une révélation façon documentaire un dimanche matin au lever du soleil. C'est d'avoir recroisé d'anciens élèves.
 
-Rien de plus. Une discussion, des nouvelles échangées, des parcours racontés : les uns en poste, les autres en train de monter un projet, d'autres encore en train de tout changer. Rien de dramatique dans ce qu'ils racontaient. C'est justement ça qui a fait tilt : voir des gens à qui j'avais enseigné continuer d'avancer, chacun à sa sauce, pendant que moi je fixais un tableau Excel sans y toucher depuis des semaines.
+Rien de plus. Une discussion, des nouvelles échangées, des parcours racontés : les uns en poste, les autres en train de monter un projet, d'autres encore en train de tout changer. Rien de dramatique dans ce qu'ils racontaient. C'est justement ça qui a fait tilt : voir des gens à qui j'avais enseigné continuer d'avancer, chacun à sa sauce, pendant que moi je fixais le plafond depuis des semaines.
 
 Je saurais même pas dire quelle phrase précise a fait basculer un truc. Mais le lendemain, j'ai rouvert le tableau. Et pour la première fois depuis un bail, je l'ai pas regardé comme une liste d'échecs. Je l'ai regardé comme la preuve que je cherchais une fonction qui, pour moi, à ce moment précis, existait probablement pas.
 
