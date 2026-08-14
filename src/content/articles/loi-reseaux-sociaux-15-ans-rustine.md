@@ -7,6 +7,8 @@ excerpt: "La loi interdisant les réseaux sociaux aux moins de 15 ans vient d'ê
 image: "/images/blog/loi-reseaux-sociaux-15-ans.webp"
 ---
 
+> ERRATUM (14/08/2026) : quelques heures à peine après la publication de cet article, le Conseil constitutionnel a censuré la loi. Motif invoqué : elle "porte une atteinte disproportionnée à la liberté d'expression et de communication" et fixe une interdiction sans tenir compte "de l'âge, de la situation familiale ni du degré de maturité" du mineur concerné. Autrement dit, exactement le reproche de fond que je développe plus bas. Je laisse l'article tel quel, avec son constat sur le texte tel qu'il avait été voté, la démonstration reste valable même si le texte, lui, n'existe déjà plus.
+
 En avril, j'écrivais un article sur les écrans et les enfants, avec une question toute bête en fil rouge, deux heures de quoi ? Parce qu'on empile depuis vingt ans des seuils, des chronos, des âges limites, en croyant régler un problème de société à coups de minuteur. Le vrai sujet, c'était pas la durée, c'était l'usage. Et je pointais déjà, à l'époque, que la loi Miller sur les réseaux sociaux, encore en discussion, répétait exactement le même réflexe, juste passé à l'échelle d'un texte de loi.
 
 Bah, j'ai pas eu à attendre longtemps pour la confirmation.
