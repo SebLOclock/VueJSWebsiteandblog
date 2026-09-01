@@ -1,7 +1,7 @@
 ---
 title: "C'est quoi un développeur en 2026 ?"
 slug: "cest-quoi-un-developpeur-en-2026"
-date: "24/08/2026"
+date: "2026-08-24"
 author: "Sebastien LEMOINE"
 excerpt: "On m'a refusé une candidature de jury parce que je forme des développeurs au lieu d'en être un. Ce qui pose une question plus large que mon petit cas personnel : à l'ère de l'IA, c'est qui, exactement, un développeur ?"
 image: "/images/blog/developpeur-2026.webp"

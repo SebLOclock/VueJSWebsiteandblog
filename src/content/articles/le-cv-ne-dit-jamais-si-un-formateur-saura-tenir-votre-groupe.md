@@ -1,6 +1,6 @@
 ---
 title: "Le CV ne dit jamais si un formateur saura tenir votre groupe"
-slug: ""
+slug: "le-cv-ne-dit-jamais-si-un-formateur-saura-tenir-votre-groupe"
 date: "2026-09-01"
 author: "Sebastien LEMOINE"
 excerpt: "Entretien nickel, CV solide, TJM négocié. Et puis le jour J, catastrophe. Ce qu'un CV ne dira jamais sur un formateur, et ce qu'il faut vérifier à la place."
